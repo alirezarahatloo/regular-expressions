@@ -22,5 +22,8 @@ int main() {
   return_value2 = regexec(&regex, "frozen yoghurt", 0, NULL, 0);
   print_result(return_value);
   print_result(return_value2);
+  //char name[15];
+  //scanf("%[a-zA-Z]",name);
+  //printf("%s",name);
   return 0;
 }
